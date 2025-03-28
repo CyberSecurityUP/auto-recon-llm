@@ -39,7 +39,7 @@ pip install -r requirements.txt
 > Example with a compatible model:
 ```bash
 export HF_TOKEN=your_huggingface_token
-openllm start mistral --model-id deepseek-ai/deepseek-coder-6.7b-instruct
+openllm run "MODEL"
 ```
 
 ### 4. Run AutoRecon
