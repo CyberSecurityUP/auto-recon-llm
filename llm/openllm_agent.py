@@ -16,4 +16,4 @@ class LLMReconAgent:
             response.raise_for_status()
             return response.json()["text"].strip()
         except Exception as e:
-            return f"Erro ao comunicar com OpenLLM: {e}"
+            return f"Error communication with OpenLLM: {e}"
